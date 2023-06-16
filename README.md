@@ -7,7 +7,7 @@
 
 To run n^e^at you will need installed [.NET Desktop Runtime 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). n^e^at developed to run on **Windows 11**, but Windows10 22H2 will be probably supported!
 
-##About n^e^at
+<h1>About n^e^at</h1>
 The tool was created for [Northlight Engine](https://www.remedygames.com/northlight/) Archive files to extract / repack / create.
 The **Northlight Engine Archive Tool** (neat) is the rewritten version of the original **Alan Wake Tool** and later the **Northlight Tool**. None of those name cover now the real purpose and function of the tool, that's why I moved those function to a new and renamed project.
 
@@ -22,7 +22,7 @@ The tool **n^e^at** was built up from scratch and unlike its predecessors, rewri
 The tool can read and create Northlight archive file (bin/rmdp). The repacked files are still not equal with the original files, but 99% of the time the game engine able to use the new archive file!
 <img src="/readme_assets/neat_main.png"/>
 
-###Features
+<h3>Features</h3>
 - [x] Unpack archive files (bin/rmdp)
 - [x] Create new archive file (bin/rmdp)
 - [x] Convert binary text file to txt and back
@@ -32,7 +32,7 @@ The tool can read and create Northlight archive file (bin/rmdp). The repacked fi
 - [ ] Plan - Generate .packmeta, .xml companion files
 - [ ] Will not support 3D files, media files etc. For those please check other solution, like [OpenAWE](https://github.com/OpenAWE-Project/OpenAWE)
 
-###Supported games
+<h3>Supported games</h3>
 (for up-to-date list please always check the description inside the tool)
 | Game | Tested Platform | Development (Read/Write/Test) |
 | ----------- | ----------- | ----------- |
@@ -65,7 +65,7 @@ The Northlight Engine games:
 <img src="/readme_assets/remedy_logo.png" alt="Remedy Entertainment" width="64"/>
 
 ---
-##How to modding (not final)
+<h2>How to modding (not final)</h2>
 The base concept of modding is to do not change the original files, but adding new contents or replace existing files with new archive files contain the updated engine files. So in this case create new archive files with minimal size.
 
 The tool can unpack the main archive files (always the biggest ones), but not able to create a new, working one. Because the tool is not handling something correctly or the game protecting the files, I do not know, but it is not matter in case of modding.
@@ -86,9 +86,9 @@ ep101-000-pc -> ep101-00**1**-pc
 **More details later...**
 
 ---
-##n^e^at screenshots (soon...)
+<h2>n^e^at screenshots (soon...)</h2>
 
-##Northligt Tool screenshots
+<h2>Northligt Tool screenshots</h2>
 <img src="/readme_assets/NorthlightTool_AW.png"/> <img src="/readme_assets/NorthlightTool_AWAN.png"/>
 <img src="/readme_assets/NorthlightTool_AWRem.png"/> <img src="/readme_assets/NorthlightTool_QB.png"/>
 <img src="/readme_assets/NorthlightTool_Ctrl.png"/> <img src="/readme_assets/NorthlightTool_about.png"/>
