@@ -2,7 +2,7 @@
 
 <p align="center"><b>The tool is under development, planned release is about the publish of Alan Wake II. (with or without AW2 support, we will see then.)</b><br/> The documentation will update during the development process!</p>
 
->**This is a hobby project, so shits can happen during the usage of this tool, but virus and malware free!**
+> **This is a hobby project, so shits can happen during the usage of this tool, but virus and malware free!**
 **The below mentioned tools has nothing to do with *Remedy Games / Remedy Entertainment* (not provided any support or code), the codebase developed by me!**
 
 To run n<sup>e</sup>at you will need installed [.NET Desktop Runtime 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). n<sup>e</sup>at developed to run on **Windows 11**, but Windows10 22H2 will be probably supported!
@@ -37,15 +37,15 @@ The tool can read and create Northlight archive file (bin/rmdp). The repacked fi
 <h3>Supported games</h3>
 
 (for up-to-date list please always check the description inside the tool)
-| Game | Tested Platform | Development (Read/Write/Test) |
-| ----------- | ----------- | ----------- |
-Alan Wake | Xbox360 / PC | done/done/NA
-Alan Wake's American Nightmare | Xbox360 / PC | under progress
-Quantum Break | PC | under progress
-Control | PS4 / PC | under progress
-Alan Wake Remastered | PS4 / PC / NSW?! | done/done/NA
-CrossfireX / Crossfire HD | XboxOne / SeriesX | under progress
-Alan Wake II | PC | currently just plan!
+| Game | Tested Platform |Engine version<br />(not official)| Development<br />(Read/Write/Test) |
+| ----------- | ----------- | ----------- | ----------- |
+Alan Wake | Xbox360 / PC | v1.2 | :white_check_mark: / :white_check_mark: / :black_square_button:
+Alan Wake's American Nightmare | Xbox360 / PC | v1.7 | :white_check_mark: / :black_square_button: / :black_square_button:
+Quantum Break | PC | v1.8 | :black_square_button: / :black_square_button: / :black_square_button:
+Control | PS4 / PC | v1.9 | :black_square_button: / :black_square_button: / :black_square_button:
+Alan Wake Remastered | PS4 / PC / NSW?! | v1.2.9 | :white_check_mark: / :white_check_mark: / :black_square_button:
+CrossfireX / Crossfire HD | XboxOne / SeriesX | v1.10 | :black_square_button: / :black_square_button: / :black_square_button:
+Alan Wake II | PC | v2.0 | currently just plan!
 
 ---
 <h2>About Northlight Engine</h2>
@@ -69,7 +69,7 @@ The Northlight Engine games:
 <img src="/readme_assets/remedy_logo.png" alt="Remedy Entertainment" width="64"/>
 
 ---
-<h2>How to modding (not final)</h2>
+<h2>How to modding, (Engine v1.x) [not final]</h2>
 The base concept of modding is to do not change the original files, but adding new contents or replace existing files with new archive files contain the updated engine files. So in this case create new archive files with minimal size.
 
 The tool can unpack the main archive files (always the biggest ones), but not able to create a new, working one. Because the tool is not handling something correctly or the game protecting the files, I do not know, but it is not matter in case of modding.
