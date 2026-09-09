@@ -5,7 +5,11 @@
 > **This is a hobby project, so shits can happen during the usage of this tool, but virus and malware free!**
 **The below mentioned tools has nothing to do with *Remedy Games / Remedy Entertainment* (not provided any support or code), the codebase developed by me!**
 
-To run n<sup>e</sup>at you will need installed [.NET Desktop Runtime 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). n<sup>e</sup>at developed to run on **Windows 11**, but Windows10 22H2 will be probably supported!
+</br></br>
+# The project will be updated in October, and release the v1.0 supporting all Nortlight game (until AW2).
+</br></br></br>
+
+To run n<sup>e</sup>at you will need installed [.NET Desktop Runtime 10](https://dotnet.microsoft.com/en-us/download/dotnet/10.0). n<sup>e</sup>at developed to run on **Windows 11**, but Windows10 22H2 will be probably supported!
 
 # About n<sup>e</sup>at
 
@@ -36,16 +40,19 @@ The tool can read and create Northlight archive file (bin/rmdp). The repacked fi
 
 <h3>Supported games</h3>
 
-(for up-to-date list please always check the description inside the tool)
+(for up-to-date list please always check the About page inside the tool)
 | Game | Tested Platform |Engine version<br />(not official)| Development<br />(Read/Write/Test) |
 | ----------- | ----------- | ----------- | ----------- |
 Alan Wake | Xbox360 / PC | v1.2 | :white_check_mark: / :white_check_mark: / :black_square_button:
-Alan Wake's American Nightmare | Xbox360 / PC | v1.7 | :white_check_mark: / :black_square_button: / :black_square_button:
-Quantum Break | PC | v1.8 | :black_square_button: / :black_square_button: / :black_square_button:
-Control | PS4 / PC | v1.9 | :black_square_button: / :black_square_button: / :black_square_button:
-Alan Wake Remastered | PS4 / PC / NSW?! | v1.2.9 | :white_check_mark: / :white_check_mark: / :black_square_button:
-CrossfireX / Crossfire HD | XboxOne / SeriesX | v1.10 | :black_square_button: / :black_square_button: / :black_square_button:
-Alan Wake II | PC | v2.0 | currently just plan!
+Alan Wake's American Nightmare | Xbox360 / PC | v1.7 | :white_check_mark: / :white_check_mark: / :black_square_button:
+Quantum Break | PC | v1.8 | :white_check_mark: / :white_check_mark: / :black_square_button:
+Control | PS4 / PC | v1.9 | :white_check_mark: / :white_check_mark: / :black_square_button:
+Alan Wake Remastered | PS4 / PC / NSW | v1.2.9 | :white_check_mark: / :white_check_mark: / :black_square_button:
+CrossfireX / Crossfire HD | XboxOne / SeriesX | v1.10 | :white_check_mark: / :white_check_mark: / :black_square_button:
+Alan Wake II | PS5 / PC | v2.0 | :white_check_mark: / :white_check_mark: / :black_square_button:
+FBC: Firebreak | PC | v2.0 | :white_check_mark: / :white_check_mark: / :black_square_button:
+Control Resonant | PC | v2.? | Planned
+Max Payne 1 & 2 Remake | PC | v2.? | Planned
 
 ---
 <h2>About Northlight Engine</h2>
@@ -61,7 +68,9 @@ The Northlight Engine games:
 - 2021 - Alan Wake Remastered
 - 2022 - CrossfireX / Crossfire HD (single-player)
 - 2023 - Alan Wake II
-- ???? - Control 2
+- 2025 - FBC: Firebreak
+- 2026 - Control Resonant
+- ???? - Max Payne 1 & 2 Remake
 
 [Northlight Engine](https://www.remedygames.com/northlight/)
 [Remedy Games](https://www.remedygames.com)
@@ -86,6 +95,9 @@ Examples:<br/>
 ep100-000-generic-en -> ep100-00**1**-generic-en<br/>
 ep100-000-pc -> ep100-00**1**-pc<br/>
 ep101-000-pc -> ep101-00**1**-pc<br/>
+
+<h2>How to modding, (Engine v2.x) [not final]</h2>
+
 
 **More details later...**
 
